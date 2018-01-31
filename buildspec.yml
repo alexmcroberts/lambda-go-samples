@@ -5,7 +5,7 @@ env:
     # This S3 bucket will be used to store the packaged Lambda deployment bundle.
     # Make sure to provide a valid S3 bucket name (it must exist already).
     # The AWS CodeBuild IAM role must allow write access to it.
-    S3_BUCKET: "codepipeline-us-west-2-86988788216"
+    S3_BUCKET: "codepipeline-us-west-2-733889336326"
     PACKAGE: "github.com/alexmcroberts/lambda-go-samples"
 
 phases:
