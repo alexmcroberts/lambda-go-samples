@@ -8,6 +8,7 @@ Resources:
       Handler: main
       Runtime: go1.x
       Tracing: Active
+      Role: arn:aws:iam::840152204631:role/AWS-CodePipeline-Service
       Events:
         GetEvent:
           Type: Api
